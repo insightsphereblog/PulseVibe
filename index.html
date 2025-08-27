@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <title>PulseVibe - Your Source for Vibrant Stories</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+      <div
+        class="container mx-auto px-4 py-6 flex justify-between items-center"
+      >
+        <h1 class="text-3xl font-bold">PulseVibe</h1>
+        <nav class="hidden md:flex space-x-6">
+          <a href="#" class="hover:text-indigo-200">Home</a>
+          <a href="#" class="hover:text-indigo-200">Categories</a>
+          <a href="#" class="hover:text-indigo-200">About</a>
+          <a href="#" class="hover:text-indigo-200">Contact</a>
+        </nav>
+        <button class="md:hidden focus:outline-none">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-white py-12">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          Welcome to PulseVibe
+        </h2>
+        <p class="text-lg md:text-xl text-gray-600 mb-6">
+          Discover stories, insights, and ideas that spark inspiration.
+        </p>
+        <a
+          href="#"
+          class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition"
+          >Explore Now</a
+        >
+      </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section class="container mx-auto px-4 py-12">
+      <h3 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+        Featured Posts
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihgYpzkDw8Gm2GHplY5UKtwsQbpYYWuBw3dNPZ71ZHRA6CudAJrsvsl_MoGYVoP5EHSmam1cKeyV0gln-g3D7gGP6TgVd0TgliAOUJao5Eyc-Zr9pVMOWpIb7BG_NnkjjiZGY4dnUHFBRL9EchiT-SBMxBcTJxB8E5kv4RPQPsqSXyfWgPXUKtKB-uMAVN/w640-h360/Stageacademy%20acting%20school.png"
+            alt="Featured Post 1"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h4 class="text-xl font-semibold text-gray-800 mb-2">
+              Schauspielschule für Performing Arts in der Schweiz
+            </h4>
+            <p class="text-gray-600 mb-4">
+              Die Stage Academy Switzerland ist eine renommierte
+              Bildungseinrichtung, die sich auf die umfassende Ausbildung in den
+              darstellenden Künsten spezialisiert hat. Mit einem starken
+              Schwerpunkt auf Tanz, Gesang und Schauspiel bietet die Akademie
+              ein abwechslungsreiches und intensives Lehrprogramm
+            </p>
+            <a
+              href="/schauspielschule-performing-arts-schweiz.html"
+              class="text-indigo-600 hover:underline"
+              >Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Posts -->
+    <section class="bg-gray-200 py-12">
+      <div class="container mx-auto px-4">
+        <h3 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+          Recent Posts
+        </h3>
+        <div
+          id="recent-posts"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          <!-- Posts will be dynamically inserted here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-indigo-600 text-white py-6">
+      <div class="container mx-auto px-4 text-center">
+        <p>&copy; 2025 PulseVibe. All rights reserved.</p>
+        <div class="mt-4 flex justify-center space-x-4">
+          <a href="#" class="hover:text-indigo-200">Privacy Policy</a>
+          <a href="#" class="hover:text-indigo-200">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Dynamic Content -->
+    <script>
+      const posts = [
+        {
+          title: "Schauspielschule für Performing Arts in der Schweiz",
+          excerpt:
+            "Die Stage Academy Switzerland ist eine renommierte Bildungseinrichtung, die sich auf die umfassende Ausbildung in den darstellenden Künsten spezialisiert hat. Mit einem starken Schwerpunkt auf Tanz, Gesang und Schauspiel bietet die Akademie ein abwechslungsreiches und intensives Lehrprogramm",
+          image:
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihgYpzkDw8Gm2GHplY5UKtwsQbpYYWuBw3dNPZ71ZHRA6CudAJrsvsl_MoGYVoP5EHSmam1cKeyV0gln-g3D7gGP6TgVd0TgliAOUJao5Eyc-Zr9pVMOWpIb7BG_NnkjjiZGY4dnUHFBRL9EchiT-SBMxBcTJxB8E5kv4RPQPsqSXyfWgPXUKtKB-uMAVN/w640-h360/Stageacademy%20acting%20school.png",
+          link: "/schauspielschule-performing-arts-schweiz.html",
+        },
+      ];
+
+      const recentPostsContainer = document.getElementById("recent-posts");
+
+      posts.forEach((post) => {
+        const postElement = document.createElement("div");
+        postElement.className = "bg-white rounded-lg shadow-lg overflow-hidden";
+        postElement.innerHTML = `
+        <img src="${post.image}" alt="${post.title}" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h4 class="text-lg font-semibold text-gray-800 mb-2">${post.title}</h4>
+          <p class="text-gray-600 mb-4">${post.excerpt}</p>
+          <a href="${post.link}" class="text-indigo-600 hover:underline">Read More</a>
+        </div>
+      `;
+        recentPostsContainer.appendChild(postElement);
+      });
+    </script>
+  </body>
+</html>
