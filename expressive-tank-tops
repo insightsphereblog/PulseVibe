@@ -75,7 +75,7 @@
             to the next level, offering a collection of bold, unapologetic
             styles that speak volumes without saying a word. Whether you're into
             graphic tees that pop, sleek tanks that highlight your physique, or
-            <a class="text-red-500" href="https://www.dealbyethan.shop/product-category/tops/">gender-neutral crop tops</a> that redefine the way we think about
+            <a class="text-red-500" href="https://www.dealbyethan.shop/product-category/tops/">expressive tank tops</a> that redefine the way we think about
             fashion, these tops are more than just a trend—they're a statement.
           </p>
           <p class="text-gray-700 leading-relaxed mb-5">
@@ -87,8 +87,8 @@
             sleeve—literally.
           </p>
           <img
-            src="https://i.ibb.co.com/277cXNCk/gender-neutral-crop-tops.jpg"
-            alt="gender-neutral crop tops"
+            src="https://i.ibb.co.com/n8f8YdWG/expressive-tank-tops.jpg"
+            alt="expressive tank tops"
             class="w-full max-w-3xl h-auto rounded-lg my-6 border-4 border-gray-200 shadow-lg hover:scale-102 hover:shadow-xl transition-transform duration-300"
           />
 
@@ -267,3 +267,4 @@
     </footer>
   </body>
 </html>
+
